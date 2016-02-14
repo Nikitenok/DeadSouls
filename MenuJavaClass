@@ -1,0 +1,20 @@
+package com.example.deadsouls;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+
+public class Menu extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_menu);
+
+        ImageView moonImageView = (ImageView) findViewById(R.id.moon);
+        Animation sunRiseAnimation = AnimationUtils.loadAnimation(this, R.anim.rise);
+        moonImageView.startAnimation(sunRiseAnimation);
+    }
+}
