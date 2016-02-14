@@ -1,5 +1,5 @@
 # DeadSouls
 Team SoloAndroid
 :D
-/s
+\s
 Основное хранилище, прежде чем отправлять сюда файлы, спросите Nikitenok
